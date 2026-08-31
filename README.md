@@ -1,28 +1,32 @@
 # Bre's Buns Bakery
 
-A responsive, mobile-first static storefront for **Bre's Buns**, a cinnamon-roll bakery in York, Pennsylvania.
+A responsive, mobile-first static website for **Bre's Buns**, a local cinnamon roll bakery in York, Pennsylvania.
 
-## What's included
-- Girly white/pink minimalist visual system
-- Custom transparent Bre's Buns logo
-- Wide header/banner artwork
-- Responsive desktop + mobile navigation
-- Cinnamon-roll product categories
-- About / bakery story section
-- Order-info placeholder
-- Location section with Maps link
-- GitHub Pages-ready static site
+## Included
 
-## Location
+- Custom pink/white/cinnamon visual theme
+- Responsive desktop, tablet, and mobile layouts
+- Branded transparent logo + wide header art
+- Menu cards with editable prices
+- Interactive "build your box" cart
+- Copyable order-request summary
+- Pickup section with Google Maps directions
+- Custom domain file for `bresbunsbakery.com`
+- GitHub Pages-ready static files
+
+## Local preview
+
+Open `index.html` directly, or run any static file server from the repository root.
+
+## Editing the menu
+
+Menu items live in `index.html`. Each `.bun-card` has `data-item` and `data-price` values used by the cart in `script.js`.
+
+## Ordering
+
+The current site intentionally does not send payment or personal information anywhere. The order builder copies a formatted order request to the shopper's clipboard. It can later be connected to Square, Shopify, Stripe, Formspree, an email form, or another ordering platform.
+
+## Pickup address
+
 135 Cedar Run Dr  
 York, PA 17404
-
-## Before launch
-Replace the order-info placeholder once actual pricing, flavors, ordering method, pickup hours, phone/email, or social accounts are finalized. This version intentionally does **not** invent any of those details.
-
-## Assets
-- `assets/bres-buns-logo-transparent.png`
-- `assets/bres-buns-header.png`
-- `assets/favicon.png`
-
-The site is entirely static; `index.html` can be hosted directly on GitHub Pages.
