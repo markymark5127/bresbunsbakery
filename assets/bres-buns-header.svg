@@ -58,7 +58,7 @@
     <path d="M68 27c14 2 24 10 30 23-12 4-24 4-36 0 1-9 3-16 6-23zm30 23c7-12 18-20 32-22 4 8 6 15 6 23-12 4-25 4-38-1z" fill="#f4a8c2" stroke="#6b3434" stroke-width="5"/>
   </g>
 
-  <image href="bres-buns-logo-transparent.png" x="515" y="18" width="470" height="470" preserveAspectRatio="xMidYMid meet" filter="url(#shadow)"/>
+  <image href="bres-buns-logo.svg" x="515" y="18" width="470" height="470" preserveAspectRatio="xMidYMid meet" filter="url(#shadow)"/>
 
   <g fill="#ef8cab">
     <circle cx="463" cy="117" r="7"/><circle cx="1030" cy="132" r="7"/>
