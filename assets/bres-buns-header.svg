@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 500" role="img" aria-labelledby="title desc">
+  <title id="title">Bre's Buns bakery header</title>
+  <desc id="desc">A pink and cream bakery banner with the Bre's Buns logo, cinnamon rolls, hearts, a drink, rolling pin, and baking accents.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#6b3434" flood-opacity=".16"/>
+    </filter>
+    <linearGradient id="bun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6a06d"/>
+      <stop offset="1" stop-color="#a95f3d"/>
+    </linearGradient>
+    <linearGradient id="icing" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdfb"/>
+      <stop offset="1" stop-color="#ffe6ed"/>
+    </linearGradient>
+  </defs>
+
+  <g opacity=".6">
+    <circle cx="190" cy="245" r="150" fill="#ffe3ed"/>
+    <circle cx="1315" cy="235" r="155" fill="#ffe3ed"/>
+    <circle cx="345" cy="100" r="48" fill="#fff4f7"/>
+    <circle cx="1160" cy="112" r="55" fill="#fff4f7"/>
+  </g>
+
+  <g fill="none" stroke="#ef8cab" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity=".9">
+    <path d="M85 117c-20-32-72-10-52 27l52 55 52-55c20-37-32-59-52-27z"/>
+    <path d="M1385 90c-17-27-58-9-43 23l43 45 43-45c15-32-26-50-43-23z"/>
+    <path d="M293 402c-13-22-46-7-34 18l34 36 34-36c12-25-21-40-34-18z"/>
+    <path d="M1213 392c-13-22-46-7-34 18l34 36 34-36c12-25-21-40-34-18z"/>
+  </g>
+
+  <g transform="translate(58 188)" filter="url(#shadow)">
+    <ellipse cx="170" cy="180" rx="154" ry="34" fill="#eaa7bc" opacity=".45"/>
+    <path d="M45 103c0-79 57-119 124-119s125 40 125 119v56c0 30-25 55-55 55H100c-30 0-55-25-55-55z" fill="url(#bun)" stroke="#6b3434" stroke-width="8"/>
+    <path d="M71 78c31-49 156-68 196 9 14 27-7 61-35 44-20-12-5-36-35-41-35-6-24 41-65 32-39-9-9-47-61-44z" fill="url(#icing)" stroke="#6b3434" stroke-width="7"/>
+    <path d="M112 91c8-41 84-53 105-16 17 30-33 59-57 33-17-18 3-35 24-29" fill="none" stroke="#7a3f2e" stroke-width="14" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(1130 180)" filter="url(#shadow)">
+    <ellipse cx="170" cy="188" rx="155" ry="35" fill="#eaa7bc" opacity=".45"/>
+    <path d="M45 110c0-79 57-119 124-119s125 40 125 119v56c0 30-25 55-55 55H100c-30 0-55-25-55-55z" fill="url(#bun)" stroke="#6b3434" stroke-width="8"/>
+    <path d="M71 85c31-49 156-68 196 9 14 27-7 61-35 44-20-12-5-36-35-41-35-6-24 41-65 32-39-9-9-47-61-44z" fill="url(#icing)" stroke="#6b3434" stroke-width="7"/>
+    <path d="M112 98c8-41 84-53 105-16 17 30-33 59-57 33-17-18 3-35 24-29" fill="none" stroke="#7a3f2e" stroke-width="14" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(328 50)" filter="url(#shadow)">
+    <path d="M14 56h102l-9 128c-2 24-19 39-42 39H58c-24 0-41-15-43-39z" fill="#f4a8c2" stroke="#6b3434" stroke-width="7"/>
+    <path d="M32 56c5-30 60-30 66 0" fill="#fff7fa" stroke="#6b3434" stroke-width="7"/>
+    <path d="M70 10l19 91" stroke="#e87c9d" stroke-width="12" stroke-linecap="round"/>
+    <path d="M44 136c14-14 29-13 43 0m-43 0c13 17 28 17 43 0" fill="none" stroke="#fff" stroke-width="8"/>
+  </g>
+
+  <g transform="translate(1055 80) rotate(-7)" filter="url(#shadow)">
+    <rect x="0" y="35" width="178" height="42" rx="21" fill="#d89465" stroke="#6b3434" stroke-width="7"/>
+    <rect x="-42" y="45" width="55" height="22" rx="11" fill="#d89465" stroke="#6b3434" stroke-width="7"/>
+    <rect x="165" y="45" width="55" height="22" rx="11" fill="#d89465" stroke="#6b3434" stroke-width="7"/>
+    <path d="M84 41v31" stroke="#ef9fbb" stroke-width="9"/>
+    <path d="M68 27c14 2 24 10 30 23-12 4-24 4-36 0 1-9 3-16 6-23zm30 23c7-12 18-20 32-22 4 8 6 15 6 23-12 4-25 4-38-1z" fill="#f4a8c2" stroke="#6b3434" stroke-width="5"/>
+  </g>
+
+  <image href="bres-buns-logo-transparent.png" x="515" y="18" width="470" height="470" preserveAspectRatio="xMidYMid meet" filter="url(#shadow)"/>
+
+  <g fill="#ef8cab">
+    <circle cx="463" cy="117" r="7"/><circle cx="1030" cy="132" r="7"/>
+    <path d="M426 93l7 17 18 7-18 7-7 18-7-18-18-7 18-7z"/>
+    <path d="M1041 337l7 17 18 7-18 7-7 18-7-18-18-7 18-7z"/>
+  </g>
+</svg>
